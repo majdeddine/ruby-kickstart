@@ -13,4 +13,3 @@ def word_count(string)
   string.each{|w| hash[w] = string.count(w) }
   hash
 end
-puts word_count "The dog and the cat"
